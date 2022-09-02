@@ -13,7 +13,6 @@ function setStatus(element, newStatus){
     element.classList.add('switch-on')
     status = newStatus
   }
-  console.log(status)
 }
 
 function start (progressEndValue = 100, progressValue = 0, speed = 50) {

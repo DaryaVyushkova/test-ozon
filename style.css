@@ -44,6 +44,10 @@ body {
   .buttons-container{
     margin-left: -20%;
   }
+
+  .circular-container{
+    min-height: 250px;
+  }
 }
 
 @media screen and (min-width: 501px){
@@ -52,10 +56,6 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-  }
-
-  .circular-container{
-    min-width: 200px;
   }
 }
 
